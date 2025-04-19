@@ -1,6 +1,6 @@
 # 🧠 ML-Optimization-Projects
 
-This repository contains hands-on Python implementations of optimization techniques widely used in Machine Learning and Data Science. Developed by **Julieta Rubis**, this project showcases core algorithms like grid search, gradient descent, and both linear and nonlinear programming with detailed, well-documented code.
+This repository contains hands-on Jupyter notebook implementations of optimization techniques widely used in Machine Learning and Data Science. Developed by **Julieta Rubis**, this project showcases core algorithms like grid search, gradient descent, linear programming, and nonlinear programming — all fully documented and ready to explore.
 
 ---
 
@@ -8,18 +8,18 @@ This repository contains hands-on Python implementations of optimization techniq
 
 This project focuses on four key optimization strategies:
 
-| Lesson | Topic | Description |
-|--------|-------|-------------|
-| 1 | Exhaustive Search | Grid search to tune model hyperparameters using scikit-learn |
-| 2 | Gradient Descent | Manual implementation of gradient descent using NumPy |
-| 3 | Linear Programming | Solve real-world LP problems with constraints using SciPy |
-| 4 | Nonlinear Programming | Handle complex objectives and constraints with `minimize` |
+| Lesson | Topic                | Description                                                                 |
+|--------|----------------------|-----------------------------------------------------------------------------|
+| 1      | Exhaustive Search    | Grid search to tune model hyperparameters using scikit-learn                |
+| 2      | Gradient Descent     | Manual implementation of gradient descent using NumPy                       |
+| 3      | Linear Programming   | Solve real-world LP problems with constraints using SciPy                   |
+| 4      | Nonlinear Programming| Handle complex objectives and constraints with `scipy.optimize.minimize`    |
 
 ---
 
 ## 🛠 Requirements
 
-Make sure to install the required packages using:
+To run locally, install required libraries:
 
 ```bash
 pip install -r requirements.txt
@@ -35,13 +35,24 @@ pip install numpy scipy scikit-learn matplotlib
 
 ## 🚀 How to Run
 
-Each lesson is a standalone Python script. Simply run:
+### 🧪 Option 1: Run in Google Colab (No installation needed!)
+
+1. Go to [Google Colab](https://colab.research.google.com/)
+2. Upload the notebook you want to explore (`.ipynb` files from this repo)
+3. Run each cell interactively in the browser
+
+### 💻 Option 2: Run Locally with Jupyter
 
 ```bash
-python lesson1_exhaustive_search.py
+jupyter notebook
 ```
 
-Repeat for lessons 2–4 by changing the file name.
+Then open and run any of the following:
+
+- `Exhaustive_Search.ipynb`
+- `Gradient_Descent.ipynb`
+- `Linear_Programming.ipynb`
+- `Nonlinear_Programming.ipynb`
 
 ---
 
@@ -49,10 +60,10 @@ Repeat for lessons 2–4 by changing the file name.
 
 ```
 ML-Optimization-Projects/
-├── lesson1_exhaustive_search.py
-├── lesson2_gradient_descent.py
-├── lesson3_linear_programming.py
-├── lesson4_nonlinear_programming.py
+├── Exhaustive_Search.ipynb
+├── Gradient_Descent.ipynb
+├── Linear_Programming.ipynb
+├── Nonlinear_Programming.ipynb
 ├── requirements.txt
 ├── LICENSE
 └── README.md
@@ -63,14 +74,14 @@ ML-Optimization-Projects/
 ## 👩‍💻 Author
 
 **Julieta Rubis**  
-Student | AI & Data Science Ecosystems – CS6512  
-📬 [GitHub Profile](https://github.com/) *(add your URL!)*
+Student | AI & Data Science Ecosystems
+📬 [GitHub Profile](https://github.com/) *(replace with your GitHub URL)*
 
 ---
 
 ## 🧠 Purpose
 
-This project is a self-driven exploration into how optimization is applied to solve machine learning and real-world mathematical problems. Every solution is tested and annotated for learning purposes.
+This project is a self-driven exploration into how optimization is applied to solve machine learning and real-world mathematical problems. Every solution is tested and clearly annotated for learning, presentation, and reuse.
 
 ---
 
